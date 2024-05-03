@@ -25,12 +25,16 @@ export default function Home() {
       <Features />
       <Video />
       <Brands />
+      {/*
       <AboutSectionOne />
-      <AboutSectionTwo />
+      <AboutSectionTwo /> 
+      */}
       <Testimonials />
       <Pricing />
+      {/*
       <Blog />
       <Contact />
+    */}
     </>
   );
 }

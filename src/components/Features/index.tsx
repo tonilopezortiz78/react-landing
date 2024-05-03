@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Experience the power of real-time data sourced directly from Binance, providing you with top-order book prices and invaluable support and resistance levels for strategic market entry and exit decisions. "
             center
           />
 

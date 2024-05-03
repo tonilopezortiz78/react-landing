@@ -59,8 +59,8 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="Pro"
+            price={isMonthly ? "199" : "1,000"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
@@ -72,8 +72,8 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            packageName="CIRCLE VIP"
+            price={isMonthly ? "1,000" : "10,000"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
@@ -85,8 +85,8 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="EXCLUSIVE"
+            price={isMonthly ? "10,000" : "100,000"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >

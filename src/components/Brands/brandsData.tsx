@@ -4,17 +4,18 @@ const brandsData: Brand[] = [
   {
     id: 6,
     name: "Formbold",
-    href: "https://formbold.com",
-    image: "/images/brands/formbold.svg",
-    imageLight: "/images/brands/formbold-light.svg",
+    href: "https://bit.ly/TranscendMoneyBinance",
+    image: "/images/logo/binance.svg",
+    imageLight: "/images/logo/binance.svg",
   },
   {
     id: 1,
     name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
-    imageLight: "/images/brands/uideck-light.svg",
+    href: "https://bit.ly/TranscendMoneyMexc",
+    image: "/images/logo/mexc.svg",
+    imageLight: "/images/logo/mexc.svg",
   },
+  /*
   {
     id: 2,
     name: "Tailgrids",
@@ -43,6 +44,7 @@ const brandsData: Brand[] = [
     image: "/images/brands/plainadmin.svg",
     imageLight: "/images/brands/plainadmin-light.svg",
   },
+  */
 ];
 
 export default brandsData;

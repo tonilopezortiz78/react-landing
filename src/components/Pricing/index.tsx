@@ -12,11 +12,10 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Streamlined payments, your way! Choose from two convenient options: reach a trading volume on MEXC through our link and we'll cover the cost, or pay directly with Solana (USDC/USDT) using your Solana wallet."
           center
           width="665px"
         />
-
         <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
@@ -56,48 +55,63 @@ const Pricing = () => {
             </span>
           </div>
         </div>
-
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Pro"
-            price={isMonthly ? "199" : "1,000"}
+            packageName="Trader"
+            price={isMonthly ? "3" : "30"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="10kusdt/monthly volume in Mexc with our link or now for limited time 3 usdt/month ."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="Top10 Binance futures coins overview relatime"
+              status="active"
+            />
+            <OfferList
+              text="TOP 10 TRADES, TOP 5 bids and offers ORDERBOOK"
+              status="active"
+            />
           </PricingBox>
           <PricingBox
-            packageName="CIRCLE VIP"
-            price={isMonthly ? "1,000" : "10,000"}
+            packageName="PRO"
+            price={isMonthly ? "10" : "100"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="100kusdt/monthly volume in Mexc with our link or now for limited time 10 usdt/month"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="All Binance futures coins overview relatime"
+              status="active"
+            />
+            <OfferList
+              text="TOP 10 TRADES, TOP 30 bids and offers ORDERBOOK"
+              status="active"
+            />
+            <OfferList text="TOP 3 orderbook chart" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="EXCLUSIVE"
-            price={isMonthly ? "10,000" : "100,000"}
+            packageName="PREMIUM"
+            price={isMonthly ? "100" : "1,000"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="1Musdt/monthly volume in Mexc with our link or now for limited time 100 usdt/month ."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList
+              text="All Binance futures coins overview relatime"
+              status="active"
+            />
+            <OfferList
+              text="TOP 100 TRADES, TOP 100 bids and offers ORDERBOOK"
+              status="active"
+            />
+            <OfferList text="TOP 3 orderbook chart" status="active" />
+            <OfferList
+              text="twice per month videocall with top trades, best strategies and priorities for the web"
+              status="active"
+            />
           </PricingBox>
         </div>
+        <OfferList
+          text="More levels available if you reach PREMIUM level, just for insiders."
+          status="active"
+        />
       </div>
 
       <div className="absolute bottom-0 left-0 z-[-1]">

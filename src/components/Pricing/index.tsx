@@ -57,7 +57,7 @@ const Pricing = () => {
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Trader"
+            packageName="TMT TRADER"
             price={isMonthly ? "3" : "30"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="10kusdt/monthly volume in Mexc with our link or now for limited time 3 usdt/month ."
@@ -72,7 +72,7 @@ const Pricing = () => {
             />
           </PricingBox>
           <PricingBox
-            packageName="PRO"
+            packageName="TMT PRO"
             price={isMonthly ? "10" : "100"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="100kusdt/monthly volume in Mexc with our link or now for limited time 10 usdt/month"
@@ -88,7 +88,7 @@ const Pricing = () => {
             <OfferList text="TOP 3 orderbook chart" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="PREMIUM"
+            packageName="TMT PREMIUM"
             price={isMonthly ? "100" : "1,000"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="1Musdt/monthly volume in Mexc with our link or now for limited time 100 usdt/month ."

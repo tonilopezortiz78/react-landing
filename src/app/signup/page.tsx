@@ -21,9 +21,8 @@ const SignupPage = () => {
                   Sign in your account
                 </h3>
                 <p className="mb-11 text-center text-base font-medium text-body-color">
-                  10 seconds and you are in
+                  in 3 seconds you are in.
                 </p>
-
                 <button className="border-stroke mb-6 flex w-full items-center justify-center rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none">
                   <span className="mr-3">
                     <Image
@@ -33,7 +32,7 @@ const SignupPage = () => {
                       alt="Solana Logo"
                     />
                   </span>
-                  Sign in with solana wallet
+                  Sign in with Solana wallet
                 </button>
                 <button className="border-stroke mb-6 flex w-full items-center justify-center rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none">
                   <span className="mr-3">
